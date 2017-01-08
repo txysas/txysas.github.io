@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+
+<!-- Website Created and Designed by Sarthak Navjivan using HTML, CSS, and JS -->
+
+<!--
+
+  _______ ______ _____     __     __         _   _              _____          _____ 
+ |__   __|  ____|  __ \    \ \   / /        | | | |      ____  / ____|  /\    / ____|
+    | |  | |__  | |  | |_  _\ \_/ /__  _   _| |_| |__   / __ \| (___   /  \  | (___  
+    | |  |  __| | |  | \ \/ /\   / _ \| | | | __| '_ \ / / _` |\___ \ / /\ \  \___ \ 
+    | |  | |____| |__| |>  <  | | (_) | |_| | |_| | | | | (_| |____) / ____ \ ____) |
+    |_|  |______|_____//_/\_\ |_|\___/ \__,_|\__|_| |_|\ \__,_|_____/_/    \_\_____/ 
+                                                        \____/                                                                                                         
+-->
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TEDxYouth@SAS</title>
+    <link href="img/favicon.ico" rel="shortcut icon" />
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .project {
+            color:#E62B1E;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:50;font-size:20px;border-bottom: 1px solid red;
+        }
+        .details {
+            display: none;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(function() { $(".project").on('click', function() { $(this).parent().find('.details').slideToggle(300); }); });
+    </script>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">TEDxYouth@SAS</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#speakers">Speakers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#archive">Archive</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">TEDxYouth@SAS</div>
+                <div class="intro-lead-in">Prism of Possibilities</div>
+                <a href="#about" class="page-scroll btn btn-xl">Welcome</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="text-muted">TEDxYouth@SAS is an organization that seeks to provide a number of opportunities for people to share ideas. We were created in the spirit of <b><a href="https://ted.com" target="_blank">TED</a></b>’s mission, “<u>ideas worth spreading</u>.” Our events are planned and coordinated by a <b><a href="#team">team</a></b> of volunteers with support from individuals and organizations within and outside of the Singapore American School.
+                    </p>
+                    <p class="text-muted">
+                    TEDxYouth@SAS is an empowering opportunity for a diverse range of speakers to express fascinating ideas on issues that they feel are significant to share with the Singapore American School community. On <b><i>March 17th, 2017</i></b>, the third TEDxYouth event at the Singapore American School will both incite intellectual discussion and highlight unique perspectives otherwise hidden within the school.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-microphone fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">TEDxYouth</h4>
+                    <p class="text-muted">In the spirit of ideas worth spreading, TEDx is a program of local, independently organized events that bring people together to share in a TED-like experience. At TEDxYouth@SAS and other TEDx events, TEDTalks videos and live speakers combine to spark deep discussion and connection in a small group. These local, self- organized events are branded TEDx, where 'x' signifies an independently organized TED event. The TED conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Prism of Possibilities</h4>
+                    <p class="text-muted">TEDxYouth@SAS’s theme this year is ‘Prism of Possibilities’. We want to allow individuals to discuss explore the possibilies of the future, present, and past – to probe the ‘Prism of Possibilites’ and share ideas that might have otherwise gone unheard. The Prism of Possibilities conference will be our third official event.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Our Mission</h4>
+                    <p class="text-muted">TEDxYouth@SAS strives to create a community where conversations about diverse ideas inspire others to make a difference. The event will bring together a diverse group of people, who want to be part of a vibrant community. And most importantly, TEDxYouth@SAS will provide a platform for the brightest minds to be inspired and to inspire others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaker Grid Section -->
+    <section id="speakers" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                    <h3 class="section-subheading text-muted">Here are the speakers for this year's event:</h3>
+                </div>
+            </div>
+            <!--
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">The schedule for this year's event will be forthcoming.</h3>
+                </div>
+            </div>
+            <!--
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>March 2011</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Executive Team</h2>
+                    <h3 class="section-subheading text-muted">Our Executive Team was responsible for planning, coordinating, and designing this event.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/alex.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#alex" alt="" width="239" height="239">
+                        <h4>Alex Cuozzo</h4>
+                        <p class="text-muted">Lead Organizer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/hana.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#hana" alt="" width="239" height="239">
+                        <h4>Hana Matsudaira</h4>
+                        <p class="text-muted">Lead Organizer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/vanessa.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#vanessa" alt="" width="239" height="239">
+                        <h4>Vanessa Smiley</h4>
+                        <p class="text-muted">Executive Producer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/jaclyn.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#jaclyn" alt="" width="239" height="239">
+                        <h4>Jaclyn Chan</h4>
+                        <p class="text-muted">Executive Producer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/paige.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#paige" alt="" width="239" height="239">
+                        <h4>Paige Freeman</h4>
+                        <p class="text-muted">Assistant Executive Producer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/rhea.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#rhea" alt="" width="239" height="239">
+                        <h4>Rhea Jain</h4>
+                        <p class="text-muted">Head Curator/Speaker Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/avinash.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#avinash" alt="" width="239" height="239">
+                        <h4>Avinash Ashok</h4>
+                        <p class="text-muted">Curator/Speaker Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/tanvi.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#tanvi" alt="" width="239" height="239">
+                        <h4>Tanvi Dutta Gupta</h4>
+                        <p class="text-muted">Curator/Speaker Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/naya.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#naya" alt="" width="239" height="239">
+                        <h4>Naya Jorgensen</h4>
+                        <p class="text-muted">Curator/Speaker Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/yana.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#yana" alt="" width="239" height="239">
+                        <h4>Yana Mihova</h4>
+                        <p class="text-muted">Curator/Speaker Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/timothy.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#timothy" alt="" width="239" height="239">
+                        <h4>Timothy Goh</h4>
+                        <p class="text-muted">Head Designer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/justine.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#justine" alt="" width="239" height="239">
+                        <h4>Justine de Jesus</h4>
+                        <p class="text-muted">Designer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/quinn.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#quinn" alt="" width="239" height="239">
+                        <h4>Quinn Tucker</h4>
+                        <p class="text-muted">Designer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/jane.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#jane" alt="" width="239" height="239">
+                        <h4>Jane Li</h4>
+                        <p class="text-muted">Head Event Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/alexis.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#alexis" alt="" width="239" height="239">
+                        <h4>Alexis Langlois</h4>
+                        <p class="text-muted">Event Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/patricia.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#patricia" alt="" width="239" height="239">
+                        <h4>Patricia Guirao</h4>
+                        <p class="text-muted">Event Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/ruth.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#ruth" alt="" width="239" height="239">
+                        <h4>Ruth Jaensubhakij</h4>
+                        <p class="text-muted">Event Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/ziyi.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#ziyi" alt="" width="239" height="239">
+                        <h4>Zi Yi Lim</h4>
+                        <p class="text-muted">Head Delegates Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/unnati.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#unnati" alt="" width="239" height="239">
+                        <h4>Unnati Yagnik</h4>
+                        <p class="text-muted">Delegates Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/madeline.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#madeline" alt="" width="239" height="239">
+                        <h4>Madeline Cuozzo</h4>
+                        <p class="text-muted">Delegates Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/annie.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#annie" alt="" width="239" height="239">
+                        <h4>Annie Kim</h4>
+                        <p class="text-muted">Head Finance &amp; Sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/christina.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#christina" alt="" width="239" height="239">
+                        <h4>Christina Yoh</h4>
+                        <p class="text-muted">Finance &amp; Sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/sarthak.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#sarthak" alt="" width="239" height="239">
+                        <h4>Sarthak Navjivan</h4>
+                        <p class="text-muted">Website Manager</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/jahvon.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#jahvon" alt="" width="239" height="239">
+                        <h4>Javhon Coney</h4>
+                        <p class="text-muted">Event Host</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/julia.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#julia" alt="" width="239" height="239">
+                        <h4>Julia Herberger</h4>
+                        <p class="text-muted">Head Communications and Marketing</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/jaelen.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#jaelen" alt="" width="239" height="239">
+                        <h4>Jaelen Coney</h4>
+                        <p class="text-muted">Communications and Marketing</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#daniel" alt="" width="239" height="239">
+                        <h4>Daniel Kwon</h4>
+                        <p class="text-muted">Head Photographer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/margi.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#margi" alt="" width="239" height="239">
+                        <h4>Margi Antonio</h4>
+                        <p class="text-muted">Photographer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#chloe" alt="" width="239" height="239">
+                        <h4>Chloe Shin-gay</h4>
+                        <p class="text-muted">Photographer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/placeholder.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#robin" alt="" width="239" height="239">
+                        <h4>Robin Juwon Yoon</h4>
+                        <p class="text-muted">Videographer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/faisal.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#faisal" alt="" width="239" height="239">
+                        <h4>Faisal Halabeya</h4>
+                        <p class="text-muted">Set &amp; Technology Specialist</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/cropped/marielena.jpg" class="img-responsive img-circle" id="myImg" data-toggle="modal" data-target="#marielena" alt="" width="239" height="239">
+                        <h4>Marielena Ramnath</h4>
+                        <p class="text-muted">Set &amp; Technology Specialist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <img src="img/team/group.jpg" width="750" height="500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="archive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speaker Archive</h2>
+                    <h3 class="section-subheading text-muted">Here are our speakers from previous events.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div>
+                        <span class="project">Shuna Sun - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Being deeply buried inside busy daily lives, people sometimes just forget to dream and they don’t even realize that they have the right to dream. Inspired by a four-word question, Shuna Sun realized her right to dream and started to work towards her dreams, which transformed her teacher’s life. She hopes to pass on the spark and inspire others to dream together with her. Shuna Sun has been a world language language teacher for over 20 years. She was born in China and moved to Singapore in 2001, where she served as a Chinese teacher at Singapore American School for 8 years.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Nicole Weinrauch - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Nicole Weinrauch, an American born in Singapore, is a freshman at the Singapore American School.  Growing up overseas not only provides Nicole insight into the current diversity of global culture, but also a deep appreciation for the historical evolution of societies that cooperate and conflict with each other today.  Nicole strives to combine her passions for twentieth century history and non-fiction writing.  Observations on global political controversy are a steady theme in her writing, stimulating firm opinions that find expression in various formats like TEDx.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Jon Ronson - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Jon Ronson is a writer and documentary filmmaker who dips into every flavor of madness, extremism and obsession.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Sunita Srivatsan - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Sunita Srivatsan first started exploring the intriguing concept of memory manipulation in her AP Seminar class last year. Since then, she has delved deeper into the issue to uncover the many ethical and philosophical implications that it poses. In her talk, she hopes to encourage audience members to reflect on the countless possibilities associated with memory manipulation. Currently a junior, Sunita has taken the opportunity in her past nine years at SAS to engage in a variety of extracurricular activities that have contributed to her interest in this topic. Her passion for STEM fields has led her to become an officer of the Science National Honor Society, Math Club, and Geek Girls, and she loves evaluating various viewpoints on global issues through public speaking activities like Debate and Model United Nations. Sunita is extremely excited to speak at an officially licensed TED conference, especially since she has been inspired by TED talks from a young age, and was part of the Executive Team planning the event last year.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">James Diebley - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">James Diebley has been teaching for 23 years at the college, high school, and middle school levels. He grew up making, breaking, tinkering, and up-cycling nearly everything around the house with his industrial arts teacher father. James is an active PADI SCUBA diving instructor and enjoys introducing people to the wonders of the underwater world.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Rhea Jain - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Rhea Jain is a junior at the Singapore American School with diverse interests, ranging from STEM to humanities. Furthermore, as a student involved in the robotics program at her school, she has a growing fascination with technology and innovation. Through the AP Capstone program, she has had the opportunity to combine these interests in a unique way by exploring the effects of social media. Rhea’s exposure to multiple perspectives of the world, through not only activities such as debate and MUN, but also through her experiences growing up in different international schools globally, have made her question some essential assumptions surrounding social media.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Dan Ariely - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Despite our intentions, why do we so often fail to act in our own best interest? Why do we promise to skip the chocolate cake, only to find ourselves drooling our way into temptation when the dessert tray rolls around? Why do we overvalue things that we’ve worked to put together? What are the forces that influence our behavior? Dan Ariely, James B. Duke Professor of Psychology and Behavioral Economics at Duke University, is dedicated to answering these questions and others in order to help people live more sensible – if not rational – lives. His interests span a wide range of behaviors, and his sometimes unusual experiments are consistently interesting, amusing and informative, demonstrating profound ideas that fly in the face of common wisdom. He holds appointments at Duke’s Fuqua School of Business, the Center for Cognitive Neuroscience, the Department of Economics, the School of Medicine, and is a senior fellow at the Kenan Institute for Ethics at Duke. He is a founding member of the Center for Advanced Hindsight and the author of the New York Times bestsellers Predictably Irrational, The Upside of Irrationality, and The Honest Truth About Dishonesty. In 2013 Bloomberg recognized Dan as one of Top 50 Most Influential thinkers. He also has a bi-weekly advice column in the Wall Street Journal called “Ask Ariely.” Dan can be found at www.danariely.com.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Barbara Harvey - 2015 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Barbara Harvey is the Head of High School Visual Arts at Singapore American School. This is her twelfth year at SAS and her seventeenth overseas. While teaching art is a great passion of hers, her two children are her greatest earthly joy. Barbara is a keeper and teller of stories.  She is grateful to have a bucket to share from her journey thusfar and excited to see how that bucket will be filled.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Vanessa Smiley - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Vanessa Smiley joined TEDx because she saw it as an opportunity to challenge the status quo and present an opinion that runs contrary to twenty-first century values. In her talk, Vanessa will argue that although people should exercise tolerance towards different cultural and moral views, in terms of the legal code, certain cultures are superior to others. In addition, she will scrutinize both the dangers and the hypocrisies of moral and cultural relativism. Vanessa enjoys studying psychology and philosophy in her free time, and she has integrated her passion for philosophy into her TEDx talk. Aside from psychology and philosophy, Vanessa likes reading books about Area 51 and has compiled all the eyebrow hairs she has ever lost into a small notebook which she calls “her Eyebrow Book.”</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Justin Peterson - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">In his senior year, Justin Peterson has taken note of the cultural components serving as the framework for thriving diversity at SAS. As he realizes this global exposure is nearly unparalleled in the North America, Justin analyzes diversity’s impact on “Third Culture Kids.” He answers questions pertaining to the roles of TCK’s in a world-wide community and sheds light on the unique experiences familiar to TCK’s which are especially prevalent in an international school setting. Additionally, Justin adds a personal touch while addresses misconceptions and prompts listeners to think about their personal conduct while away from home. Justin’s perspective has been molded through experiences he has had while living in Bangkok, Ohio, New Jersey, Malaysia and Singapore. In his free time, he enjoys reading plot summaries to scary movies, helping his dog lose weight, and finishing homework tomorrow.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Tanvi Dutta Gupta - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">We are members of an age dominated by the World Wide Web. Tanvi Dutta Gupta examines the impact our online presence has made on the Earth’s biodiversity, and argues the expanded role that we, as humans, can play in shaping it – and its future. Aside from writing about birds on her nature blog, Somewhere Up a Tree, she is regularly found in the depths of MacRitchie Reservoir examining wildlife and chasing after butterflies. Tanvi, although only fourteen, has had photographs featured on National Geographic and Project Noah, as well as receiving recognition from NParks and BBC Wildlife Photographer of the Year.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Samantha Daynes - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Samantha Daynes is a storyteller, and so is everyone else she has met. In her TED talk she discusses how storytelling, a barrier-breaking form of communication, is far more prominent and important in our lives than we realize. Stories allow us to make sense of the world and our place in it, to create a sense of wonder, and to build an emotional connection with others. Her knowledge of this topic comes from years pursuing her passion for books as a voracious reader and from telling stories throughout her teenage years in the forms of theatre, writing, and music. She is an avid writer who finished her second novel this May and a musical theatre enthusiast with a love for singing, especially when other people don’t want her to.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Kartikye Mittal - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Kartikye Mittal found his passion for STEM through SAS robotics and realized the possibilities for innovation were endless. After watching Interstellar, he was inspired to embark on his own mission of building a satellite. After four months, he is getting closer to completion. Additionally, Kartikye argues the importance of Nanosatellites in making space exploration possible and discusses the our role in breaking the barrier of the vast darkness looming above our Earth. Kartikye has been fortunate to participate in multiple international robotics competitions, serving both as team captain and a mentor to the less experienced. He has led the team bronze in Taipei and Hong Kong regional competitions.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Shreya Shankar - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">As a senior who passionate about math, science and art. Shreya Shankar has discovered the importance of developing connections between these seemingly unrelated fields. In her talk, Opposites Attract, she explores the reasons as to why it is necessary for our global community to realise that these fields are more interwoven than is commonly acknowledged. As an avid artist, she has been able to identify areas where art overlaps with math and science in her own life and imagines the possibilities that may arise if this correlation is more commonly used as an advantage. Because she has wanted to be an architect since she was young, she has constantly seen where the clearly defined barrier lies, and she believes that this barrier is must come down to achieve greater success in our quickly changing world. In her free time, Shreya enjoys exploring cafes in Singapore and baking.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Bart Millar - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Bart Millar is a generalist who is fascinated with history, science and psychology, and the results when they intersect. On many occasions, especially while watching the news, Bart has wondered “How can people be so dumb?” The wall between ‘being trusting’ and ‘being a victim’ is thin and in his talk, Bart explores how and why people fall prey to bad ideas, leaving themselves or others to suffer. Being a teacher for psychology, economics and robotics at SAS has afforded him unique insight into this topic.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Paige Freeman - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">Paige Freeman has not yet uncovered her ultimate goal in life, and is just fine with that. She does, however, have some problems she’d like to fix along the way. As a person struggling with multiple mental disorders, she vividly illustrates the consequences they have on everyday life, the stigmas society places on mental illness, and speaks out about her own experience for the first time. Paige moved from Brooklyn to Singapore in 2006, where she has attended SAS for the past nine years. She enjoys writing, making art, and singing — in 2013, she sang a solo at the Esplanade Concert Hall. Paige is partial to rainy afternoons and listening to good music.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="project">Fred Crawford - 2014 <i class="fa fa-arrow-circle-o-down"></i></span>
+                        <div class="details">The sheer size of the known Universe is staggering. Because of its immensity, we are constrained by the known laws of physics in a dilemma: although the possibilities in the Universe are nearly infinite, we can only hope to ever know a small portion. So, how many extraterrestrial civilizations exist that are capable of radio communication and are actively trying to do so? Is the number more than one? Fred Crawford has been teaching physics for the past thirty years, having taught in India, Thailand and Singapore. Although an American citizen, Fred was born and raised outside of the US. When not pondering physics, Fred likes to cook.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">You can also reach us at <a href="mailto:tedxyouth@sas.edu.sg">tedxyouth@sas.edu.sg</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; TEDxYouth@SAS 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/TEDxYouthSAS/" target='_blank'><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/sastedxyouth/" target='_blank'><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/tedxyouthsas" target='_blank'><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCxdgfIKf7PLxWodPYB1Rgsg" target='_blank'><i class="fa fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright">This TEDx event is independently organized.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Speaker Modals -->
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Bio Modals -->
+    <div id="alex" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Alex Cuozzo</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/alex.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Alex Cuozzo is a co-lead organizer of TEDxYouth@SAS: Prism of Possibilities and has been involved with the TEDxYouth@SAS executive team since its inception. To Alex, TEDx is a way for people to speak out and share their ideas in the hopes of making an impact on the world around them. Alex is passionate about Chinese, coding, soccer, and more! Currently a senior, Alex is excited to put on an event that will leave a lasting impression.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hana" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Hana Matsudaira</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/hana.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As the co-lead organizer of this year’s March 2017 event, Hana is known to be a TEDx fanatic. At TEDxYouth@SAS, she constantly finds herself inspired by her peers - both speakers and executive team. She believes that TEDx is the platform to learn and empathize with the world around her and is excited to do so through the eyes of her peers. As a junior at SAS, she hopes to create something truly magical alongside her team and is honored to be leading this incredible group. In addition to TEDx, she has been heavily involved in numerous SAS centric activities including Forensics Society, Peer Support, and Student Council. Outside of SAS, Hana enjoys baking and aspires to one day be an amateur ripsticking.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="vanessa" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Vanessa Smiley</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/vanessa.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>//Vanessa's bio</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jaclyn" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Jaclyn Chan</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/jaclyn.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>This is Jaclyn’s third year in TEDxYouth executive team. Currently a junior, she is passionate about computer science and chemistry-- but aside from science, she has always been actively involved in the service community, and the robotics and dance/performing arts programs. She is excited to be an executive producer for the TEDxYouth @ SAS executive team and hopes that this event will give unrecognized voices a chance to speak.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="paige" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Paige Freeman</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/paige.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Paige Freeman is an eleventh grader and the one and only assistant executive producer of this year’s TEDxYouth event. This is her third year with TEDxYouth@SAS; her TED talk in freshman year opened a discussion on mental illness in SAS, and the following year found her working as a curator on the other side of the stage. TEDx, she believes, allows for a truly miraculous spreading of ideas by a truly diverse group of people. Her other involvements include Forensics Society and Singapore Lyric Opera. Paige does an inordinate amount of art and writing, and she considers there to be no greater joy in the world than high-quality chocolate.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="rhea" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Rhea Jain</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/rhea.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Rhea, a senior, has always been intrigued by ideas. Her TEDx talk last year looked for ways to better understand creativity, and she believes that nothing captures the diversity of ideas, stories, and thoughts better than TEDx. She loves to learn about everything, and every talk from relatable TCK stories to exploring life outside our world has given her a new perspective to see the world through. Outside of TEDx, Rhea is involved in a wide range of activities, from Debate, MUN, and HMC to Math Club. In her free time, she loves listening to music, going rollerblading near her house, and drinking bubble tea.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="avinash" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Avinash Ashok</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/avinash.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Avinash, an 11th grader, discovered his passion for public speaking, analytics, and problem solving, at his first Model United Nations conference in 2012. Ever since, he has devoted his time to helping others express their ideas and their voices -- believing that TEDxYouth@SAS is a perfect opportunity to do so. As a curator, Avinash will work closely with speakers by improving their speeches and their delivery, while still maintaining the speaker's original voice. Outside of TEDx, Avinash is actively involved with MUN, Harvard Model Congress, the UN Women’s Rights movement in Singapore, and the Whole Tree Foundation, a foundation that actively seeks to combat mental health issues. He also enjoys playing the guitar and occasional walks -- to the fridge.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tanvi" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Tanvi Dutta Gupta</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/tanvi.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Tanvi is a junior in her third year of participating in TEDxYouth@SAS. An avid wildlife photographer and blogger, in her freshman year she gave a talk on the intersection between the Internet and conservation. The potential of TEDx as a platform for SAS’s rich and diverse community to share their ideas hit her hard and she’s unbelievably excited (read: fangirling) about the chance to be facilitating the display of those ideas to the world this year as a speaker curator. Outside of TEDx, Tanvi can often be found with a permanently bent neck looking for a bird that just flew past, and, oh my god, did you see its wings. Otherwise, she is an officer of Photo Club, Students Against Violation of the Environment, and Global Issues Networks, and shouts excitedly about nature to members of the public in the Toddycat’s Love MacRitchie walks.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="naya" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Naya Jorgensen</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/naya.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Naya is a passionate someday-author, speaker/yeller and English nerd in general. Years ago, her mother started constantly sending her links to TED videos, and though she’ll never admit it, they got her hooked. From slam poetry to statistical analyses on the effects of global warming, she’s been held captive by too many TED talks to have passed up an opportunity to help people give their own. Being part of TEDxYouth@SAS is a wondrously surreal experience, and coaching the event’s speakers is going down on her list of favourite accomplishments. Besides getting pumped about TED and wondering who Ted is, Naya has maybe two hobbies, plus some semblance of a personality; she can usually be found working with Student Council, singing, teaching SAS’s little kids how to act, or-- surprise, surprise-- writing.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="yana" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Yana Mihova</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/yana.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Yana, a junior, is currently entering her 11th year at SAS and is honored to have the role of curator and event host in this year’s TEDxYouth@SAS event. Her passion lies with people, ranging from learning about lives and perspectives to experiencing the world through stories. No event emphasizes and showcases the uniqueness of people better than TEDx. What she finds inspiring about it is the openness she feels when talking to her fellow executive team members and speakers. No idea or person can ever feel out of place. Outside of TEDx, Yana is involved with Peace Initiative, Varsity Basketball and out of school service at National University Hospital. She enjoys debating about politics, watching dog videos on Facebook and experiencing cultures through food, particularly sushi.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="timothy" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Timothy Goh</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/timothy.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As an art student in 10th grade, hearing about the chance to design for a TEDx was a dream for Tim. Designer of many posters for other school organisations and Snapchat geofilters in Singapore, Tim’s world is gravitated towards graphic design. He believes that TEDx is the best way for anyone to communicate their ideas, and that it could provide a unique perspective of the world. Other than TEDx, Tim is in Student Council, Peer Support, and loves discussing history and politics with friends.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quinn" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Quinn Tucker</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/quinn.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Quinn, an SAS junior, is beyond excited to be a part of the TedXYouth@SAS team. She joined TEDxYouth@SAS after being enticed by the idea of a platform where people could speak about their ideas and share their passion with the rest of the SAS community. Having a love for color and creation and design, Quinn found the design role to be a perfect fit that would allow her to contribute to the inspiring event that is  TEDx. Outside of TEDx, Quinn is enjoys designing for SAS Communications and working with multiple service clubs, especially those who help children in need. After school, you can find her in the pool, out with her dog, or at home baking cookies. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="justine" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Justine de Jesus</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/justine.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Marking her 13th and final year at SAS, senior Justine de Jesus has developed a deep connection with the school, and jumped on the idea to get involved with one of the most empowering student-led events offered here, TedxYouth@SAS. With a love for all things art and design, Justine believes working as a Designer is the best way for her to not only pursue her passion, but make an impact. Beyond Tedx, Justine loves participating in both MUN and HMC, and is a senior officer for the National Art Honor Society. Outside of school, she loves exploring Singapore’s food scene and grabbing bubble tea with friends.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jane" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Jane Li</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/jane.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Having attended SAS for almost ten years, Jane, a current junior, has discovered that there are so many members of the SAS community who have incredible ideas, insights and stories that are left untold. Jane strongly believes that TEDx is the perfect platform that can bring people together. A valuable platform and opportunity where people can not only share and learn, but to be empathetic and vulnerable. This year Jane is excited to be part of the TEDx Executive Team as she genuinely loves organizing events and giving back to the SAS community. Aside from TEDx, Jane is constantly involved with Student Council/House Council, Peer Support and many other service clubs and honor societies. Outside of school, Jane loves spending time with her friends, making art, dancing for fun and going to new places to explore.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="alexis" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Alexis Langlois</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/alexis.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Alexis is currently a junior at SAS. She is excited to be a part of the TEDxYouth@SAS Executive Team because she believes it provides a platform for students and teachers across SAS to express themselves in a way that is unique. She loves planning, implementing and organizing events, and TEDxYouth has given her an outlet to pursue such interests. Beyond TEDxYouth, Alexis plays on the Varsity Touch Rugby team, is Vice President of the Gawad Kalinga service club, enjoys facilitating EAA activities with elementary school kids, and plays the trumpet for both the wind ensemble and the HS jazz band. Outside of school, she is heavily involved with organizing activities for the youth group at her church. She enjoys trying new food and jigsaw puzzles.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="patricia" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Patricia Guirao</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/patricia.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Patricia has been attending SAS for ten years and is currently a freshman. While looking through the many activities and extracurriculars that SAS High School had to offer, one thing that caught her eye was the TEDxYouth@SAS program. As she has always been interested in organizing events, public speaking, and working with others, Patricia thought that this was a great program for her and applied instantly. She is now incredibly excited and  looking forward to working with other individuals who share similar passions to create an incredible event that she believes is a great opportunity for people in the SAS community to share their unique ideas in a public setting. Other than TEDxYouth@SAS, Patricia is involved in Peer Support, several different service clubs, dance club, and volleyball. Outside of school, she loves to bake, play the piano, and eat Italian food.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ruth" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Ruth Jaensubhakij</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/ruth.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Two years ago, Ruth attended the very first TEDxYouth@SAS event and was instantly hooked. She believes that there are few other events which give members of the SAS community such a unique chance to share their stories, and this has led to her passion for helping these stories be told. As a junior, this is Ruth’s second year as a member of the executive team, and she could not be more excited to be a part of something so special and to work with this amazing group of people. Other than TEDx, Ruth enjoys giving back to the SAS community through the Executive Service Council, and is a member of the Debate team and multiple music performance groups. Outside of school, she is heavily involved in her church and loves to make Spotify playlists.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ziyi" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Zi Yi Lim</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/ziyi.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>In her second year of being a part of the TEDx Executive Team, Zi Yi, a senior, is excited to do it all again as the head delegates coordinator. She was first inspired to join the team by the incredible people around her doing incredible things everyday. She believes that TEDx is important in that it gives a voice to these students and promotes discussion on fascinating topics within the SAS community. Outside of TEDx, Zi Yi is a leader in multiple service clubs and honor societies. She loves reading novels and writing poetry, and is also a passionate member of the music community. After school hours, you would normally find her at a debate practice session or a choir rehearsal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="unnati" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Unnati Yagnik</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/unnati.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>When Unnati, a freshmen, heard about the TEDxYouth@SAS program, she was instantly hooked to it. She has always been keen in organizing events, and learning about the TEDx Executive Team, she applied immediately. Additionally, she believes that the TEDxYouth program is a great platform that gives the passion in spreading your enthusiasm and viewpoints on the many topics to chose from. Furthermore, she believes that the TEDxYouth program creates and unifies groups of people into one as they start to learn about each other's interests and believes. Other than organizing events, Unnati is a part of many extracurricular activities at SAS like the Girls Soccer team, Peer Support, and Debate Club. In addition, she spends a lot of her time in the dance studio either teaching as a MS choreographer, or learning as a student.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="madeline" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Madeline Cuozzo</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/madeline.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>//Madeline's bio</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="annie" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Annie Kim</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/annie.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As a junior, Annie is the head finance and sponsorship coordinator of this year’s event. She believes that among her 12 years at SAS, starting an annual TEDxYouth@SAS event is one of the best things that has happened to the school. For two years in a row, she experienced not only the inspirational talks but also the magical teamwork that TEDxYouth creates, which fueled her passion for TED. Other than TEDx, Annie is also passionate about solving global issues through Global Issues Network, and loves math and science. She is involved in the school’s Math Club, and is also a part of the SpaceLab team at SAS.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="christina" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Christina Yoh</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/christina.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Christina Yoh, a freshmen this year, is one of the Finance and Sponsorship coordinators for this year’s TedX event. As this is her 10th year at SAS, Christina is honored and excited to help coordinate this remarkable event and be a part of this amazing experience. She is really looking forward to working together with amazing individuals to bring inspiration to the SAS community and beyond. Beyond TEDx, she extremely interested in anything STEM-related, hence, she is currently involved in multiple clubs such as GIN (Digital Divide) and Geek Girls, which help her pursue her interests. On the varsity XC team this year, Christina also loves to run and then devour great food afterwards! </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sarthak" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Sarthak Navjivan</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/sarthak.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As a new student in 11th grade, this is Sarthak’s first year in both SAS and the TEDxYouth Executive Team. Sarthak has always enjoyed watching TED talks due to their captivating and inspiring nature, and he is excited to be involved in this year's TEDx event, as the role of website manager allows him to contribute through his love for coding. He feels that this event can provide a congregation of ideas and deeper thinking within SAS. Outside of school, Sarthak has deep interests in math, science, and martial arts, and has intense passions for computer science and teaching others how to code. He loves to apply computer science for both meaningful and fun purposes, whether it be to solve a real-world problem, or to just create something new.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jahvon" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Jahvon Coney</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/jahvon.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>After attending SAS for three years, Jahvon is elated to finally be apart of the TedxYouth@SAS Executive Team for the first time as Event Host.  Currently a junior, he is passionate about improving student life within the school and raising school spirit by being actively involved in Student Council and Peer Support. Jahvon is honored to host such a unique and engaging forum and cannot wait to be blown away by the talented students who will grace the TedxYouth stage. In addition, he is grateful for the chance to work alongside some of the most dedicated and diligent students here at SAS and is looking forward to hosting the event with a longtime colleague of his. Outside of school, Jahvon enjoys spending time with his family, playing basketball with his brother, and catching up on the latest political news surrounding the presidential election.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="julia" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Julia Herberger</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/julia.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As a senior, this is Julia’s second year at SAS and her first year with TEDxYouth. She is excited to have the opportunity to join this team as Head of Marketing and Communications during her last year in high school. Julia has always loved TED Talks, listening to them regularly with her mom. Coming from a small high school in Rhode Island, she never had the opportunity to get involved in something like this, until now. Julia thinks TEDxYouth is very important to the SAS community because of the voice it gives to young people, using a platform that creates a passion to share within the SAS community and the TEDx community. Apart from TEDx, Julia is passionate about her role in the 24 Hour Race SG, Cambodia’s Future Foundation, National Art Honor Society, and her lacrosse team. Julia enjoys art museums, bubble tea, and her dog.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jaelen" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Jaelen Coney</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/jaelen.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>This is Jaelen's first year as a member of the TEDx Executive Team and for him, TEDx Youth is the opportunity to share ideas that can influence others on a personal level or even on a global scale. The power of meaningful and captivating talks is what initially drew him to join the team. As one of the Communications and Marketing Directors, Jaelen is both enthused and honored at the idea of using his experience in the concepts of both marketing and advertising to help promote many of the fantastic speakers at this year’s event. Besides being a rookie to TEDx, Jaelen also is a part Student Council, Peer Support, and a member of the Varsity Basketball Team. Other than that Jaelen can be found to be an avid sneakerhead and a hip-hop enthusiast.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="daniel" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Daniel Kwon</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>As a sophomore, Daniel is excited to have the opportunity to be the Head Photographer for TEDxYouth@SAS. In his eleventh year at SAS, he is extremely passionate about connecting with fellow students and giving back to the community he has been part of for numerous years. This being his first year helping organize TEDx, he feels a determination to learn as much as he can and help this event to accomplish what it’s suppose to do: inspire others, share each other’s ideas and to help people connect with each other. In addition, Daniel is involved in numerous extracurriculars such as Student Council, Peer Support, Photo Club and is also an officer for the Rustic Pathways: Children’s Home and For Kids: Growing a Greener Future service clubs. He is also has been part of the high school swim team and continues to swim outside of school. In his spare time, he likes to take artsy photos, drink bubble tea and binge watch Netflix shows.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="margi" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Margi Antonio</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/margi.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>When Margi heard about this inspirational event, she knew it was something she wanted to take part in. As a sophomore, eleven years at SAS have motivated her to cultivate her passions by being involved in the SAS community. She feels that incredible events like TEDx do the same for others. Margi has been involved in school activities Student Council, Peer Support, EAA Service, and she is currently an officer for the Gawad Kalinga service club. She has also been a part of the school track and field and touch rugby teams. Outside of school, she is involved in the youth group at her church. Photography is one of her great interests; she adores travel and loves to share her experiences through this art. You will normally find her at the track, or at home drinking iced milo while watching The Tonight Show with Jimmy Fallon on YouTube.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="chloe" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Chloe Shin-Gay</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Chloe is a junior, and a Photographer and Videographer for TEDxYouth@SAS. This is her 7th year at SAS, and third time helping to organize a TEDx event.  Ever since Chloe was introduced to TED talks, she was fascinated by the range of topics and importance of the subjects brought up. She found TED talks to be an engaging platform in which to share an issue, idea or story with a crowd, and hopes that it will continue to allow students an eager audience for all the ideas and stories they have to tell. Besides TEDx, Chloe is involved in a number of extracurricular activities, such as Climbing Club, Photo Club and Academic Quiz Club, and is currently an officer for the Global Issues Network service club. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="robin" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Robin Yoon</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/placeholder.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Robin is a junior who is very passionate about the art of filmmaking. As the vice-president of Film Society, he not only enjoys making movies, but likes to help out with promoting various events and organizations within SAS. Besides film, Robin is engaged in the service community by serving as the president of the SAS Liberty in North Korea rescue team. He also loves listening to jazzy tunes and playing the sax and drums in both Jazz Band and IPAU. Robin is ecstatic about working with the rest of the TEDxYouth@SAS executive team.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="faisal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Faisal Halabeya</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/faisal.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Being a junior in his 11th year at SAS, Faisal is the Set &amp; Technology Specialist for this year’s TEDx event. His expertise with the stage spans multiple events and nearly a year of technical training at SAS’s world-class theatrical facilities. In addition to seeing TEDxYouth@SAS as a logistically enticing challenge, Faisal also feels it is a communicative anchor to unify ideas from students and teachers with those most willing to listen; he hopes to provide the medium to convey these “flashes of genius” to the entire school. Outside of TEDx, Faisal is passionate about communication and analysis, and works as a part of Promise for Pakistan, Science National Honor Society and Model United Nations, among other activities at SAS. Travelling and solving complex problems are what charge him and he always seeks out work which allows him to do both.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="marielena" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h2 class="modal-title">Marielena Ramnath</h2></center>
+                </div>
+                <div class="modal-body">
+                    <center><img src="img/team/cropped/marielena.jpg" class="img-responsive img-circle" alt="" width="200" height="200"></center>
+                    <br>
+                    <p>Marielena is a sophomore in her first year at SAS, after having moved from Mexico City to Singapore. She is a Set &amp; Technology Specialist for the TEDx team this year. After running Set &amp; Technology for productions at her former school, she is excited to be part of this program, which she has admired for most of her life. She can’t wait to help the speakers be able to pass on their messages to audiences, as well as to inspire and motivate them, and feels she can put her skills to use on the technical side. Outside of TEDx, Marielena enjoys playing junior varsity soccer, as well as tennis at home, and is passionate about music, creative writing, and a developing  interest in psychology. She is also involved in various service clubs including READ Bhutan and Food From The Heart, and is hoping to be able to make an impact on her new community.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
